@@ -1,0 +1,17 @@
+block content
+
+  if (registrations.length){
+    table.listing-table.table-dark
+      Print+= " first name
+        last name
+        Email"
+      each registration in registrations
+        tr
+          td= registration.firstname
+          td= registration.lastname
+          td= registration.email"}
+          
+  else{
+    Print+= No registrations}
+    
+ 
